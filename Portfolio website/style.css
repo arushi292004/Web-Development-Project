@@ -1,0 +1,207 @@
+.main {
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+
+
+}
+
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+
+}
+
+header {
+    background-color: rgb(204 241 180);
+    color: black;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+
+}
+
+header h1 {
+    margin: 0;
+    font-size: 4em;
+
+}
+
+nav ul {
+    list-style-type: none;
+    font-size: 2em;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+li:hover {
+    background-color: rgb(204 241 180);
+}
+
+.home {
+    align-items: center;
+    justify-content: left;
+}
+
+.home1 {
+    margin-left: 110px;
+    margin-top: 60px;
+    font-size: 55px;
+    font-weight: bolder;
+    line-height: 70px;
+
+}
+
+.home2 {
+    margin-left: 112px;
+    font-size: 20px;
+    ;
+
+}
+
+.home3 {
+    position: static;
+    margin-left: 140px;
+    height: auto;
+    width: 90px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+h2 {
+    margin-bottom: 5px;
+    font-size: 4em;
+    color: black;
+    background: rgb(204 241 180);
+    display: block;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.colour {
+    color: rgb(114 193 62);
+}
+
+.line2 {
+    align-items: center;
+}
+
+.line1 {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.about1 {
+    font-size: 2em;
+}
+
+.homepage {
+    width: 65%;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.box1,
+.box2,
+.box3 {
+    border: 1px solid black;
+    margin: 9px;
+    padding: 10px;
+}
+
+.midline {
+    height: 4px;
+    background-color: rgb(204 241 180);
+    position: relative;
+    z-index: 100;
+}
+
+.page2 {
+    margin: 5px;
+    padding: 30px;
+}
+
+.project {
+    margin: top 20px;
+    ;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.learn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo1,.logo2,.logo3{
+    margin: 90px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.html{
+    width: 60px;
+}
+.css{
+    width: 40px;
+}
+.js{
+    width: 50px;
+}
+.foot{
+    line-height: 80px;
+}
+.line3{
+    font-size: 70px;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    padding: 40px
+}
+.l1, .l2, .l3, .l4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 3em;
+}
